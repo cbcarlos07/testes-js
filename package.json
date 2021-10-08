@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon transformarArrayEmObjeto.js",
+    "dev": "nodemon converterSegundosEmHoras.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
     "nodemon": "^2.0.7"
   }
 }
